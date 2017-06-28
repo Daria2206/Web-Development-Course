@@ -1,0 +1,86 @@
+/*
+=============================
+Some general styles
+=============================
+*/
+body {
+	color: #000;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 1em;
+}
+
+
+/*
+=============================
+Header
+=============================
+*/
+
+#header-nav {
+	background-color: #848484;
+	border-radius: 0;
+	border: .2vw solid #848484;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+    font-size: 32px;
+    font-weight: 700;
+    padding-right: 10%;
+    margin-top: 1.5%;
+}
+
+.navbar-default .navbar-brand:hover {
+	color: #000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #000; 
+}
+.navbar-toggle {
+	background-color: transparent;
+	margin-top: 3%;
+}
+.navbar-toggle .icon-bar {
+	border: solid #000;
+}
+#nav-menu {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+#nav-menu a {
+	background-color: #FFF;
+	font-size: 170%;
+}
+.border-top {
+	border-top: .2vw solid #848484;
+}
+
+
+/*
+=============================
+Custom Styles
+=============================
+*/
+
+.menu-title {
+	font-size: 3.5em;
+	font-weight: 700;
+	margin-bottom: 4%;
+	margin-top: 4%;
+}
+.menu-section {
+	background-color: #848484;
+	font-size: 2em;
+	padding: 1% 2.5% 2%;
+	margin-bottom: 1%;
+}
+.menu-section-title {
+	font-size: 1.5em;
+	font-weight: 700;
+}
+.back-to-top {
+	font-size: 1.5em;
+	text-align: center;
+	text-decoration: none;
+
+}
